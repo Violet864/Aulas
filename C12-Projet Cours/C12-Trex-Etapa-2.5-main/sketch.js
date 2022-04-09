@@ -81,6 +81,7 @@ function spawnClouds(){
   cloud.velocityX = -3
   cloud.addImage(cloudImage)
   cloud.scale = 0.5
+  cloud.y = Math.round(random(10,60))
  
 }
 }
